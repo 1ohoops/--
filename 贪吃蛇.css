@@ -1,0 +1,132 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.box {
+    padding: 25px;
+}
+
+caption {
+    margin-bottom: 15px;
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btm {
+    background-color: white;
+    border-color: white;
+    color: rgb(126, 48, 190);
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.tips {
+    margin:0 auto;
+    width: 518px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.tips::before , .tips::after {
+    content: "";
+    display: table;
+}
+
+.tips::after {
+    clear: both;
+}
+
+.lab {
+    float: left;
+    height: 50px;
+}
+
+.tip {
+    border: 1px solid rgb(240, 80, 133);
+    background-color: rgba(255, 0, 140, 0.486);
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.note {
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.scorealter {
+    float: right;
+    height: 50px;
+}
+
+.remind {
+    display: block;
+    font-size: 10px;
+    color: rgb(126, 48, 190);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.y {
+    padding: 0;
+    height: 9px;
+    line-height: 9px;
+}
+
+.x {
+    padding: 0;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border: 0.2px solid #eee8b2;
+}
+
+.platform {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 1px solid rgb(248, 147, 31);
+}
+
+.snake {
+    background-color: rgb(201, 62, 7);
+    
+}
+
+.target {
+    background-color: rgb(201, 62, 7);
+    
+}
+
+#result {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(241, 103, 53, 0.911);
+    rotate: 0.1;
+    color: darkgray;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
